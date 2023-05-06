@@ -1,0 +1,55 @@
+.tasks {
+
+}
+.tasks .addTask {
+
+}
+.tasks .addTask .input-task {
+    flex-basis: 85%;
+    position: relative;
+}
+.tasks .addTask .input-task input[type='date'] {
+    position: absolute;
+    right: 42px;
+    top: 63%;
+    transform: translateY(-50%);
+    width: 70px;
+    z-index: 10;
+    opacity: 0;
+}
+.tasks .addTask .input-task svg {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+}
+.tasks .addTask button {
+    flex-basis: 10%;
+}
+.tasks .tasksList {
+    display: flex;
+}
+.tasks .tasksList .task {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(207, 220, 221);
+    margin: 2rem;
+    padding: .5rem;
+}
+.tasks .tasksList .task span {
+    
+}
+.tasks .tasksList .task .optiones {
+    display: flex;
+}
+.tasks .tasksList .task .optiones button {
+    width: 50px;
+    height: 24px;
+    margin-right: 2px;
+}
+.tasks .tasksList .task .optiones button svg {
+
+}
